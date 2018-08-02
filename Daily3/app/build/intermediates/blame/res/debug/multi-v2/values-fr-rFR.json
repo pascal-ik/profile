@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ik\\AndroidStudioProjects\\Daily3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rFR\\values-fr-rFR.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ik\\AndroidStudioProjects\\Daily3\\app\\src\\main\\res\\values-fr-rFR\\strings.xml",
+                    "from": {
+                        "startLines": "6,7,8,9,10,11,12,13,2,3,4,5",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "260,312,363,407,476,521,599,641,57,102,162,204",
+                        "endColumns": "50,49,42,67,43,76,40,53,43,58,40,54",
+                        "endOffsets": "306,357,401,470,515,593,635,690,96,156,198,254"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,106,156,199,267,311,388,429,483,527,586,627",
+                        "endColumns": "50,49,42,67,43,76,40,53,43,58,40,54",
+                        "endOffsets": "101,151,194,262,306,383,424,478,522,581,622,677"
+                    }
+                }
+            ]
+        }
+    ]
+}
