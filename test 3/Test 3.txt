@@ -1,0 +1,125 @@
+WHAT ARE BROADCAST RECEIVERS? 
+A broadcast receiver is an android component that responds to system wide announcements
+
+
+WHAT ARE STATIC AND DYNAMIC BROADCAST RECEIVER? 
+A static broadcast is declared in the app manifest file and works even when the app is closed. A dynamic broadcast
+is implemented with code and must be registered with the onRegisterReceiver() method. It does not work when the app is closed.
+
+
+HOW TO SEND A BROADCAST?
+A broadcast is sent as an intent object by using the sendBroadcast() method.
+ 
+HOW TO MAKE SURE OTHER APPS CAN’T LISTEN TO YOUR BROADCASTS? 
+By setting permissions on the broadcaster so that only other apps that have that permission can listen to the sent broadcast and
+by using intent filters in an app's broadcast receiver to specify what types of broadcast messages the app is going to listen for.
+
+HOW TO CREATE A BROADCAST RECEIVER? EXPLAIN STEP BY STEP. 
+
+HOW TO IDENTIFY A BROADCAST? 
+
+WHAT IS AN INTENT FILTER? 
+Is used to describe the capabilities of it's parent object. It specifies the types of intents that an activity, service or broadcast receiver can respont to.
+
+WHAT ARE THE WAYS YOU CAN ADD AN ACTION TO THE INTENT/INTENTFILTER? 
+An action can be added to an intent by using the putAction() method() 
+An action can be added to an intent filter by specifying the action in an <action> tag within the intent filter.
+
+WHAT ARE SYSTEM BROADCASTS? 
+These are broadcast messages originating from the android os.
+
+CAN YOU ADD MULTIPLE ACTION WHILE SENDING A BROADCAST? 
+No
+
+CAN YOU ADD MULTIPLE ACTIONS TO THE INTENTFILTER WHILE RECEIVING A BROADCAST? HOW WOULD YOU HANDLE THAT? 
+Yes, by registering multiple intent filters
+ 
+WHAT ARE SERVICES? 
+These are android components that are used to do long running background tasks. They usually do not have a user interface.
+
+DO ALL SERVICES RUN ON THE MAIN THREAD? 
+No, Intent services do not run on the main thread.
+
+WHAT ARE THE TYPE OF SERVICES? 
+Foreground, Background(Started and Bound) and intent services.
+
+WHAT METHOD EACH OF THE SERVICES NEED TO IMPLEMENT? 
+Started services must implement the onStartCommand()
+Bound service must implement the onBind() method.
+
+WHAT ARE SERVICES USED FOR? 
+For performing long running tasks in the background so as to not obstruct the performance.
+
+DOES EACH SERVICE NEEDS TO BE DECLARED IN THE MANIFEST?
+No, only static services
+
+WHAT IS A STARTED SERVICE? WHEN DO WE USE IT?
+A started service is a service started by and app component using the startService() command and can run indefintely in the background even after the starting component has been killed
+We use these for performing long running tasks that have some level of importance.
+
+WHAT IS A BOUND SERVICE? WHEN DO WE USE IT?
+Is a service that allows components to bind to it. it is killed after the last component unbinds from it.
+We use this to allow communication between app components and services.
+ 
+WHAT IS A SCHEDULED SERVICE? WHEN DO WE USE IT? 
+A type of service that runs based on certain parameters.
+Used when we want to perform certain actions based on certain criteria.
+
+WHAT IS A JOBSCHEDULER? WHY DO WE USE IT? 
+A jobscheduler is an api for scheduling various jobs that will be executed with in an apps process.
+We use it in order to obtain a balance between performace and battery life.
+
+HOW DO WE PERFORM A JOB USING THE JOBSCHEDULER? EXPLAIN IN DETAIL. 
+We construct jobinfo objects and pass them to a jobscheduler using schedule() method. Whenever the criteria of the jobs are met the system will execute them using the jobscheduler.
+
+WHAT HAPPENS TO THE BOUND SERVICE WHEN YOU UNBIND FROM IT? 
+When the last component unbinds from it, it is stopped.
+
+HOW DO WE COMMUNICATE WITH A BOUND SERVICE? HOW MANY WAYS? 
+We can use handlers and messengers
+The Android Interface Definition Language
+Binder
+
+HOW DO WE USE THE BINDER TO COMMUNICATE WITH A BOUND SERVICE? 
+We extend the binder class and return an instance of the binder from onBind(). The app component can then use the binder to directly access public methods on the binder/bound service.
+
+WHAT ARE ARGUMENTS WE NEED PASS TO THE BINDSERVICE() 
+(Intent, ServiceConnection, int)
+
+WHAT IS A FOREGROUND SERVICE? 
+A service that performs an operation that is noticeable to the user.
+
+WHAT IS A FRAGMENT LIFECYCLE? 
+This is the different stages that occur from when a fragment is created to when it is destroyed.
+
+WHAT IS AN ACTIVITY LIFECYCLE? 
+This is the different stages that occur from when an activity is created to when it is destroyed.
+
+WHAT IS THE DIFFERENCE BETWEEN A MERGE AND A REBASE? 
+
+WHAT IS A WEB SERVICE? NAME SOME. 
+A service that allows communication over the internet using http.
+SOAP
+REST
+
+WHAT ARE THE VERBS USED IN REST SERVICE? 
+put, get, post, delete...
+
+HOW CAN YOU MAKE A REST CALL IN ANDROID WITHOUT THIRD PARTY LIBS? NAME THE CLASSES.
+HttpURLConnection 
+
+WHAT HAPPENS WHEN YOU MAKE A NETWORK CALL ON THE MAIN THREAD?  
+ANR because this is a long operation. Android automatically throws an exception
+
+EXPLAIN HOW YOU CAN MAKE A REST CALL USING OKHTTP3? 
+
+HOW CAN YOU MAKE SYNCHRONOUS/ASYNCHRONOUS CALL USING OKHTTP3? 
+HOW TO ADD HEADERS/QUERY PARAMETERS TO A REQUEST IN OKHTTP? 
+WHAT IS RETROFIT? HOW DO YOU SETUP RETROFITHELPER CLASS? 
+HOW TO USE DYNAMIC URLS IN RETROFIT? 
+WHAT IS AN INTERCEPTOR? HOW DO WE USE AN INTERCEPTOR IN RETROFIT? 
+HOW CAN YOU USE DIFFERENT VERBS IN RETROFIT? 
+WHAT ARE THE WAYS TO TRANSFORM JSON RESPONSE TO DATABEAN CLASSES? 
+HOW CAN WE SERIALIZE A REST JSON RESPONSE TO THE DATA BEAN CLASSES? 
+CAN YOU ADD THE SERIALIZATION LIBRARY TO THE RETROFIT INSTANCE? HOW? 
+HOW TO CACHE THE RESPONSE FROM A REST CALL? 
