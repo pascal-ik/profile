@@ -1,0 +1,48 @@
+Week 3 Daily 2
+
+Please work on the following questions 
+
+Define what is a Broadcast Receiver? 
+An android component that responds to system wide broadcast messages.
+ 
+What are the differences between a static and a dynamic broadcast receiever?  
+A static broadcast is implemented in the manifest and runs even when the app is closed.
+A dynamic receiver is implemented in code using the onRegisterReceive() method and can only run while the app is actively running.
+
+How do you send a broadcast? 
+A broadcast can be sent by passing an intent into the sendBroadcast() method
+
+What is an Intent filter?  
+An intent filter specifies the types of intents an activity, broadcast receiever or service can respond to.
+
+How do you secure a broadcast receiver?  
+By using permissions to ensure that only permitted receievers can get that broadcast.
+By using intent filters in the receiever to ensure that only required events are listened for.
+
+What is the local broadcast manager? 
+A helper to register for and send broadcasts of Intents to local objects within your process. It is more efficient than sending a global broadcast through the system.
+
+What are some examples of broadcasts send by the system? list at least 10.
+android.intent.action.ACTION_POWER_CONNECTED
+android.intent.action.ACTION_POWER_DISCONNECTED
+android.intent.action.ACTION_SHUTDOWN
+android.intent.action.AIRPLANE_MODE
+android.intent.action.APPLICATION_RESTRICTIONS_CHANGED
+android.intent.action.BATTERY_CHANGED
+android.intent.action.BATTERY_LOW android.intent.action.BATTERY_OKAY
+android.intent.action.BOOT_COMPLETED
+android.intent.action.CAMERA_BUTTON
+android.intent.action.CONFIGURATION_CHANGED
+android.intent.action.CONTENT_CHANGED
+android.intent.action.DATA_SMS_RECEIVED
+android.intent.action.DATE_CHANGED
+android.intent.action.DEVICE_STORAGE_LOW
+android.intent.action.DEVICE_STORAGE_OK
+android.intent.action.DOCK_EVENT
+android.intent.action.DOWNLOAD_COMPLETE
+
+Explain the steps to setup an static broadcast receiver in your android studio project? 
+
+What happened to static broadcasts on Android P? 
+NETWORK_STATE_CHANGED_ACTION broadcast doesn't receive information about the user's location or personally identifiable data.
+system broadcasts from Wi-Fi don't contain SSIDs, BSSIDs, connection information, or scan results
