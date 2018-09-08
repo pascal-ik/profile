@@ -1,0 +1,128 @@
+TEST 2
+
+What are shared preferences? When do we use Shared Preferences? 
+An android tool for storing and retrieving data using key, value pairs. 
+We use shared preferences for storing small persistent data.
+
+How are the values stored in shared preferences? 
+By using a shared preferences editor to put the key value pairs.
+
+How do you get the associated file of shared preferences? 
+In an xml file in the app data folder
+
+Can you have multiple shared preferences file? 
+Yes
+
+How do you write a file to internal/external storage? 
+By using an android file object
+
+What permission(s) are needed for the above? 
+You have to request file access permission
+android.permission.WRITE_EXTERNAL_STORAGE
+
+How do you create a SQL database in Android? 
+By extending the SQLiteDatabaseHelper android class.
+
+What are methods you need to implement when extend the “native database” class? 
+onCreate() and onUpgrade();
+
+How to do you update the schema of the database? 
+by overriding onUpdate(SQLiteDatabase db,int old Version,int newVerison)
+
+How do you execute a query in database helper class? 
+By using a cursor 
+
+Name the methods in the database helper class used for CRUD operations? 
+delete, add,
+
+How do you have a image in the SQL database? 
+you can use an image path to the raw image file or 
+
+Write a query to create a table. 
+"CREATE TABLE " + TABLE_IMAGE + "("
+                + KEY_ID + " INTEGER PRIMARY KEY," + KEY_IMAGE_PATH + " TEXT)";
+
+Write a query to select everything from a table?
+SELECT * FROM TABLE_NAME;
+
+What is a recyclerView? 
+A container for rendering larger data set of views that can be recycled and scrolled more efficiently compared to a listView
+
+What is a list view? 
+A container that displays a list of scrollable items.
+
+Which is better and why? 
+A recyclerView is better than a listview because of its internal efficiency and flexibility.
+
+How would you implement the RecyclerView.Adapter class? Write a sample class explaining what each method is responsible for. 
+
+How can you change the orientation of the recyclerView? 
+By using a LayoutManager
+
+Name some layout managers you can use with the recyclerView? 
+Linear Layout manager , Grid Layout Manager and Staggered Grid Layout Manager
+
+What is runnable? How would you run a task in the runnable? 
+A class that implements the runnable interface and is used within a thread.
+A task is run with in the run() method.
+
+How can you use the Thread class to run a task? 
+Extending the thread class and overridin the run method.
+
+How would you communicate back to the UI thread using a Handler? Explain what is a Handler class? 
+
+
+How do you associate a Handler object with the Main thread? 
+
+Write a hander.post method? 
+
+How would you communicate back to the UI thread after waiting some time in the thread? 
+
+What is an Asynctask? When do we use it? 
+A class that helps applications to handle the Main thread efficiently
+
+Explain each type of parameter used in an Asynctask<param1, param2, param3>. 
+Params, the type of the parameters sent to the task upon execution.
+Progress, the type of the progress units published during the background computation.
+Result, the type of the result of the background computation.
+
+Write a sample Asynctask class, explaining each one of them.  
+
+Which method runs on the worker thread? What is the name of that thread? 
+
+What is EventBus? 
+An Eventbus is a mechanism that allows different components to communicate with each other without knowing about each other. It uses the 
+
+How do you setup eventbus in your project? 
+By adding the dependency in the app gradle
+
+Explain step by step how would you communicate using eventbus. Write appropriate annotations and eventbus methods. 
+
+What are fragments? 
+Is a component with its own UI that functions within an activity.
+
+What is the fragment lifecycle? 
+
+
+How is a fragment lifecycle associated with the activity lifecycle? 
+
+What are the way you can add a fragment to the activity? 
+
+Write the code to add a fragment to a layout in the activity? 
+
+Is a fragment added to the backstack by default? How would you add it if not? 
+
+How do you remove a fragment from the activity? 
+Using onDetach() method
+
+In which method would you bind the views in a fragment? And how? Write the code to bind a textview. 
+onCreateView() method
+
+How to send data to a fragment though an activity before fragment is added?
+Using an interface  
+
+How do you communicate with the activity from a fragment? Explain step by step. 
+
+Can you add a fragment without the xml? 
+
+What are the factory methods in fragment class used for creating a new instance?
