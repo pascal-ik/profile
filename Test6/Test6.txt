@@ -2,31 +2,42 @@ What is unit testing? how do we unit test in android? What library? 
 A type of software testing where individual logical parts of source code are individually analyzed to ensure proper functionality.
 
 What is instrumentation testing? How do we make instrumentation test in Android? 
+These are tests that run on a device or emulator
 
 Which library in Android do we use to mock objects/methods in android for testing? 
 JUnit, Mockito
 
 Where do we create unit test classes? 
+In the android test package
 
 What are the standard annotations we use to create a simple unit test? 
 @Before, @Test, @After
 
 How to mock an object? Write the code to do it in two ways? 
 
+
 How to mock a method in the mock object? 
 
 What is the expected value and actual value in an assert statement? 
+The expected value is our test input.
+The actual value is the output that we use to confirm the test result
 
 Where do we create the espresso test classes? 
+Within the android test package
 
 Do we need the device/emulator to run espresso tests? 
+yes
 
 Why do we need to create a rule for an espresso test? 
 
+
 How to create a custom Content Provider? 
+By extending the Content Provider class
 
 Name some operators used in RxJava? 
+Just, Map, Debounce
 
 How do you handle synchronization in Java?
 
-1.)Rotate an array of n elements to the right by k steps. For example, with n = 7 and k = 3, the array [1,2,3,4,5,6,7] is rotated to [5,6,7,1,2,3,4]. How many different ways do you know to solve this problem?
+1.)Rotate an array of n elements to the right by k steps. For example, with n = 7 and k = 3, the array [1,2,3,4,5,6,7] is rotated to [5,6,7,1,2,3,4].
+ How many different ways do you know to solve this problem?
