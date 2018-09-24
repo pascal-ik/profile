@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ZooApp</string>
+    <string name="welcome">Welcome to the ZOO!</string>
+    <string name="show_categories">Explore</string>
+
+    <string name="frog_description">A tailless amphibian with a short squat body, moist smooth skin, and very long hind legs for leaping.</string>
+    <string name="snake_description">A long limbless reptile that has no eyelids, a short tail, and jaws that are capable of considerable extension. Some snakes have a venomous bite.</string>
+    <string name="lion_description">A large tawny-colored cat that lives in prides, found in Africa and northwestern India. The male has a flowing shaggy mane and takes little part in hunting, which is done cooperatively by the females</string>
+    <string name="pigeon_description">A stout seed- or fruit-eating bird with a small head, short legs, and a cooing voice, typically having gray and white plumage.</string>
+    <string name="tilapia_description">An African freshwater cichlid fish that has been widely introduced to many areas for food.</string>
+
+</resources>
