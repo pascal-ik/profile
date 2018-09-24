@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SqlLiteApp</string>
+    <string name="id">Employee ID</string>
+    <string name="fname">Employee First Name</string>
+    <string name="lname">Employee Last Name</string>
+    <string name="minitial">Employee Middle Initial</string>
+    <string name="phone">Employee Phone Number</string>
+    <string name="save">Save Employee</string>
+    <string name="show">Show Employee</string>
+
+</resources>
