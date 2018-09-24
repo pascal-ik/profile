@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ThreadPoolProgress</string>
+    <string name="progress">Let\'s Go!</string>
+    <string name="button_text">Start</string>
+</resources>
