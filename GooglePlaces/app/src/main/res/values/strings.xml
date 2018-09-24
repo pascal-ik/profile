@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GooglePlaces</string>
+    <string name="google_api_key">AIzaSyDM2CVSkDnMxMsDyHwsLrwNjswc684dSIo</string>
+    <string name="cast">Cast</string>
+    <string name="schools">Schools</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="search">Search</string>
+    <string name="weather_condition">placemarker</string>
+</resources>
