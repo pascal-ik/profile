@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "938548632412",
+    "firebase_url": "https://fir-6eb40.firebaseio.com",
+    "project_id": "fir-6eb40",
+    "storage_bucket": "fir-6eb40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938548632412:android:5204a2ee88bf33d5",
+        "android_client_info": {
+          "package_name": "pamtech.com.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938548632412-p2k3vuemncr61248amq0s27qjmbudcjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pamtech.com.firebase",
+            "certificate_hash": "9b827b9c7d96cc21c36e63718119a4529bbfdea9"
+          }
+        },
+        {
+          "client_id": "938548632412-o1gr8s75dfukfi3b4rt1s76achttualu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArLP6U_kxXF8xBdMwbyXXmlgop-qPk3os"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938548632412-o1gr8s75dfukfi3b4rt1s76achttualu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
