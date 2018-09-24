@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CelebrityApp</string>
+    <string name="prime">Peter</string>
+    <string name="prime_desc">Peter Claver Cullen is a Canadian voice actor. He is best known as the voice of Optimus Prime in the original 1980s Transformers animated series, and most other incarnations of the character.</string>
+    <string name="megatron">Frank</string>
+    <string name="megatron_desc">Franklin Wendell Welker is an American voice actor. He is best known for his role as Fred Jones from the Scooby-Doo franchise since its inception</string>
+    <string name="sam">Shia</string>
+    <string name="sam_desc">Shia Saide LaBeouf is an American actor, performance artist, and filmmaker. He became known among younger audiences as Louis Stevens in the Disney Channel series Even Stevens</string>
+    <string name="mikaela">Megan</string>
+    <string name="mikaela_desc">Megan Denise Fox is an American actress and model. She began her acting career in 2001, with several minor television and film roles, and played a regular role on the Hope &amp; Faith television sitcom</string>
+</resources>
