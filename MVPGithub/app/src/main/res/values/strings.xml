@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVPGithub</string>
+    <string name="button_text">Show Repositories</string>
+    <string name="text_hint">Enter repo name</string>
+</resources>
