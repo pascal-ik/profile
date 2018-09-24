@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BBVA</string>
+    <string name="google_api_key">AIzaSyDM2CVSkDnMxMsDyHwsLrwNjswc684dSIo</string>
+    <string name="marker">place image</string>
+</resources>
