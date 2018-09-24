@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SplashApp</string>
+    <string name="dialogue_text">Show Dialogue Fragment</string>
+    <string name="alert_dialogue">Show Alert Dialogue</string>
+    <string name="custom_alert_dialogue">Show Custom Alert Dialogue</string>
+
+    <string name="dismiss_text">Dismiss</string>
+    <string name="text_hint">Enter Message</string>
+    <string name="send_sms">Send Text</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+</resources>
