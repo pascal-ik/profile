@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppIntents</string>
+    <string name="email_hint">Enter Receiver Email Address</string>
+    <string name="email_button">Send Email</string>
+    <string name="alarm_hint">HH:MM</string>
+    <string name="alarm_button">Set Alarm</string>
+    <string name="link_hint">Enter Website Address</string>
+    <string name="link_button">Go To</string>
+    <string name="phone_hint">Enter Receiver Phone Number</string>
+    <string name="phone_button">Dial</string>
+    <string name="camera">Open Camera</string>
+</resources>
