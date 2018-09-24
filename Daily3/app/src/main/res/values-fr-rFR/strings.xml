@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Profil</string>
+    <string name="content_description">User Image</string>
+    <string name="name">prénom:</string>
+    <string name="name_answer">Pascal Adjaero</string>
+    <string name="DOB">Date de naissance:</string>
+    <string name="DOB_answer">03/26/1994</string>
+    <string name="EDU">Éducation:</string>
+    <string name="EDU_answer">Bachelor Sc Computer Science</string>
+    <string name="EXP">Expérience:</string>
+    <string name="EXP_answer">Software Developer Intern Connect2Car</string>
+    <string name="HOB">Loisirs:</string>
+    <string name="HOB_answer">Playing soccer</string>
+</resources>
